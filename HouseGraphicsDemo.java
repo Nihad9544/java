@@ -25,7 +25,7 @@ if (doorColor == Color.RED) {
 doorColor = Color.BLUE;
 } else {
 doorColor = Color.RED;
-}
+}	
 repaint();
 }
 }
@@ -40,10 +40,14 @@ g2d.setColor(Color.LIGHT_GRAY);
 g2d.fillRect(100, 150, 200, 150);
 g2d.setColor(Color.BLACK);
 g2d.drawRect(100, 150, 200, 150);
-int[] xPoints = {80, 200, 320};
-int[] yPoints = {150, 50, 150};
+
 g2d.setColor(Color.DARK_GRAY);
-g2d.fillPolygon(xPoints, yPoints, 3);
+g2d.fillRect(80, 110, 250, 40);
+g2d.setColor(Color.BLACK);
+g2d.drawRect(80, 110, 250, 40);
+
+g2d.setColor(Color.DARK_GRAY);
+
 g2d.setColor(doorColor);
 g2d.fillRect(DOOR_X, DOOR_Y, DOOR_W, DOOR_H);
 g2d.setColor(Color.BLACK);
