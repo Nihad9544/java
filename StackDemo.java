@@ -29,14 +29,14 @@ public class StackDemo {
 public static void main(String[] args) {
 	System.out.println("--- Integer Stack Operations ---");
 	GenericStack<Integer> intStack = new GenericStack<>(3);
-	intStack.push(10);
-	intStack.push(20);
-	intStack.push(30);
-	intStack.push(40); 
+	intStack.push(101);
+	intStack.push(102);
+	intStack.push(103);
+	intStack.push(104); 
 	System.out.println("Popped: " +intStack.pop());
 	System.out.println("\n--- String Stack Operations ---");
 	GenericStack<String> stringStack = new GenericStack<>(2);
-	stringStack.push("KTU");
+	stringStack.push("nihad");
 	stringStack.push("MCA");
 	System.out.println("Popped: " + stringStack.pop());
 	System.out.println("Popped: " + stringStack.pop());
